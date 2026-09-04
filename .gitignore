@@ -1,0 +1,34 @@
+# ==============================
+# CLion
+# ==============================
+.idea/
+.idea_backup/
+
+# ==============================
+# CMake build directories
+# ==============================
+cmake-build-*/
+build/
+
+# ==============================
+# Compiled executables
+# ==============================
+*.exe
+
+# ==============================
+# C/C++ object files
+# ==============================
+*.o
+*.obj
+
+# ==============================
+# CMake generated files
+# ==============================
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+Makefile
+build.ninja
+.ninja_deps
+.ninja_log
