@@ -7,6 +7,7 @@
 
 #include <bits/stdc++.h>
 #include "GraphNode.h"
+#include "GraphUtils.h"
 
 using namespace std;
 
@@ -14,5 +15,7 @@ using namespace std;
 int numberOfIslands(vector<vector<string>> grid);
 int rottingOranges(vector<vector<int>> grid);
 int maxAreaOfIsland(vector<vector<int>> grid);
+
+GraphNode* cloneGraph(GraphNode* start);
 
 #endif //GRAPHPROBLEMS_H
