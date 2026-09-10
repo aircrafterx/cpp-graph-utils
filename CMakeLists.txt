@@ -18,4 +18,5 @@ add_executable(GraphUtils
         maxAreaOfIsland.cpp
         main.cpp
         cloneGraph.cpp
+        courseSchedule.cpp
 )
