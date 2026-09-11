@@ -21,5 +21,7 @@ GraphNode* cloneGraph(GraphNode* start);
 
 // problems on graphs represented without explicit graph nodes
 bool courseSchedule(int numCourses, vector<vector<int>> edges);
+vector<int> courseSchedule2(int numCourses, vector<vector<int> > edges);
+
 
 #endif //GRAPHPROBLEMS_H

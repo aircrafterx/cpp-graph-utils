@@ -19,4 +19,5 @@ add_executable(GraphUtils
         main.cpp
         cloneGraph.cpp
         courseSchedule.cpp
+        courseSchedule2.cpp
 )

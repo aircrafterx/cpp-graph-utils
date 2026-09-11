@@ -9,8 +9,10 @@
 #include "GraphProblems.h"
 
 int main() {
-    vector<vector<int>> edges = {{1,0}};
-    cout << courseSchedule(2, edges);
+    vector<vector<int>> edges = {{1,0}, {3, 2}, {2, 3}, {4, 3}, {5, 4}};
+
+    vector<int> res = courseSchedule2(6, edges);
+    for (int i : res) cout << i << " ";
 
     return 0;
 }
