@@ -65,7 +65,7 @@ destroyGraph(root);
 | DFS                     | O(V + E)   |
 | destroyGraph            | O(V + E)   |
 
-## Problems Solved — 3/10
+## Problems Solved — 7/10
 
 ### Utilities
 - ✅ Build Directed Graph
@@ -84,9 +84,9 @@ destroyGraph(root);
 | 2 | Rotting Oranges (994) | Multi-source BFS | ✅ |
 | 3 | Max Area of Island (695) | Grid BFS + component size | ✅ |
 | 4 | Clone Graph (133) | DFS/BFS + visited mapping | ✅ |
-| 5 | Course Schedule (207) | Cycle Detection / Topo Sort | ⬜ |
-| 6 | Course Schedule II (210) | Topological Sort | ⬜ |
-| 7 | Word Ladder (127) | BFS + implicit graph | ⬜ |
+| 5 | Course Schedule (207) | Cycle Detection / Topo Sort | ✅ |
+| 6 | Course Schedule II (210) | Topological Sort | ✅ |
+| 7 | Word Ladder (127) | BFS + implicit graph | ✅ |
 | 8 | Pacific Atlantic Water Flow (417) | Reverse BFS/DFS | ⬜ |
 | 9 | Directed Cycle Detection | DFS states / Kahn's Algorithm | ⬜ |
 | 10 | Dijkstra's Algorithm | Weighted shortest path | ⬜ |

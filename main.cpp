@@ -9,10 +9,8 @@
 #include "GraphProblems.h"
 
 int main() {
-    vector<vector<int>> edges = {{1,0}, {3, 2}, {2, 3}, {4, 3}, {5, 4}};
-
-    vector<int> res = courseSchedule2(6, edges);
-    for (int i : res) cout << i << " ";
+    vector<string> words = {"hot","dot","dog","lot","log","cog"};
+    cout << wordLadder("hit", "cog", words);
 
     return 0;
 }
