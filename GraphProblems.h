@@ -11,10 +11,11 @@
 
 using namespace std;
 
-// problems on unweighted, undirected graphs
+// Grid-based graph traversal
 int numberOfIslands(vector<vector<string>> grid);
 int rottingOranges(vector<vector<int>> grid);
 int maxAreaOfIsland(vector<vector<int>> grid);
+vector<vector<int>> atlanticPacific(const vector<vector<int>>& grid);
 
 // problems on graph nodes
 GraphNode* cloneGraph(GraphNode* start);
