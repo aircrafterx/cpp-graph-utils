@@ -65,7 +65,7 @@ destroyGraph(root);
 | DFS                     | O(V + E)   |
 | destroyGraph            | O(V + E)   |
 
-## Problems Solved — 8/10
+## Problems Solved — 9/10
 
 ### Utilities
 - ✅ Build Directed Graph
@@ -88,7 +88,7 @@ destroyGraph(root);
 | 6 | Course Schedule II (210) | Topological Sort | ✅ |
 | 7 | Word Ladder (127) | BFS + implicit graph | ✅ |
 | 8 | Pacific Atlantic Water Flow (417) | Reverse BFS/DFS | ✅ |
-| 9 | Directed Cycle Detection | DFS states / Kahn's Algorithm | ⬜ |
+| 9 | Directed Cycle Detection | DFS states / Kahn's Algorithm | ✅ |
 | 10 | Dijkstra's Algorithm | Weighted shortest path | ⬜ |
 
 ---

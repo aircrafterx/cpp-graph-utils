@@ -22,4 +22,5 @@ add_executable(GraphUtils
         courseSchedule2.cpp
         wordLadder.cpp
         atlanticPacific.cpp
+        directedCycleDetection.cpp
 )
