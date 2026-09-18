@@ -25,6 +25,7 @@ bool courseSchedule(int numCourses, vector<vector<int>> edges);
 vector<int> courseSchedule2(int numCourses, vector<vector<int> > edges);
 int wordLadder(string begin, string end, vector<string> words);
 bool directedCycleDetection(int n, const vector<vector<int>>& edges);
+vector<int> dijkstra(int n, const vector<vector<int>>& edges, int start);
 
 
 #endif //GRAPHPROBLEMS_H

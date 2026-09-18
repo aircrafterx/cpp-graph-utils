@@ -23,4 +23,5 @@ add_executable(GraphUtils
         wordLadder.cpp
         atlanticPacific.cpp
         directedCycleDetection.cpp
+        dijkstra.cpp
 )
